@@ -14,6 +14,14 @@ pcf2bmfont [-W width] [-H height] [-n atlas_file] [-x xml_file] [-C] -i char_sel
 Example:
 > pcf2bmfont -W 1024 -H 1024 -n atlas.png -x myfont.fnt -C -i chars.txt some_cool_font.pcf
 
+## About PCF Parser
+
+The source code of the PCF parser used in this command-line tool can work out of the project -- just take the 'PCFFont.h' and 'PCFFont.cpp' out and add them in your project.
+
+Some useful document for parsing PCF:
+
+https://fontforge.github.io/en-US/documentation/reference/pcf-format/
+
 ## Credits
 
 * [bmfm](https://gitlab.com/matthklo/bmfm): Sister project. Deal with bitmap font generation.
