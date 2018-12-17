@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{b038cef5-cade-482f-ae3d-6ee548a64974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\rapidxml">
+      <UniqueIdentifier>{4afa0815-8353-4269-af40-4ad51ab34ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\RectangleBinPack">
+      <UniqueIdentifier>{c2995bfa-e5c2-4756-bfc6-9978251db999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\bmfm">
+      <UniqueIdentifier>{df8f9b82-f87c-43fa-b0f4-16f7e069ced8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\zlib">
+      <UniqueIdentifier>{95186f84-5426-4afa-bd91-74c77ddbc2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\libpng">
+      <UniqueIdentifier>{843bf766-fe35-4dc9-b444-5c0bd59387dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\xgetopt">
+      <UniqueIdentifier>{4e9079d6-ddee-4764-803c-516f3b97aded}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bmfm\atlas.cpp">
+      <Filter>External\bmfm</Filter>
+    </ClCompile>
+    <ClCompile Include="bmfm\bmfont.cpp">
+      <Filter>External\bmfm</Filter>
+    </ClCompile>
+    <ClCompile Include="bmfm\utils.cpp">
+      <Filter>External\bmfm</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\png.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngerror.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngget.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngmem.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngpread.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngread.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrio.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrtran.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrutil.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngset.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngtrans.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwio.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwrite.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwtran.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwutil.c">
+      <Filter>External\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="xgetopt\xgetopt.c">
+      <Filter>External\xgetopt</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>External\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\GuillotineBinPack.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\MaxRectsBinPack.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\Rect.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\ShelfBinPack.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\ShelfNextFitBinPack.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBinPack\SkylineBinPack.cpp">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PCFFont.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bmfm\atlas.h">
+      <Filter>External\bmfm</Filter>
+    </ClInclude>
+    <ClInclude Include="bmfm\bmfont.h">
+      <Filter>External\bmfm</Filter>
+    </ClInclude>
+    <ClInclude Include="bmfm\bmftags.h">
+      <Filter>External\bmfm</Filter>
+    </ClInclude>
+    <ClInclude Include="bmfm\utils.h">
+      <Filter>External\bmfm</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\png.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngconf.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngdebug.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnginfo.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnglibconf.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngpriv.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngstruct.h">
+      <Filter>External\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="xgetopt\xgetopt.h">
+      <Filter>External\xgetopt</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>External\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\GuillotineBinPack.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\MaxRectsBinPack.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\Rect.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\ShelfBinPack.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\ShelfNextFitBinPack.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleBinPack\SkylineBinPack.h">
+      <Filter>External\RectangleBinPack</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml.hpp">
+      <Filter>External\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_iterators.hpp">
+      <Filter>External\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_print.hpp">
+      <Filter>External\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_utils.hpp">
+      <Filter>External\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="PCFFont.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
